@@ -1,0 +1,31 @@
+# .gitignore
+
+# git
+*.patch
+
+# idea
+.idea/
+*.iml
+
+# log
+logs/
+*.log
+
+# mac
+.DS_Store
+
+# maven
+.flattened-pom.xml
+
+# nodejs
+node_modules/
+# nodejs-npm
+package-lock.json
+# nodejs-yarn
+yarn.lock
+# nodejs-umi
+.umi
+.umi-production
+
+# target
+target/
